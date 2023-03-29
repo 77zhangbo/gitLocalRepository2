@@ -1,0 +1,49 @@
+2023-03-22 10:37:28.809 [main] INFO  com.msb.Springboot03Application - Starting Springboot03Application using Java 1.8.0_181 on LAPTOP-HUJOPHMK with PID 18088 (D:\项目\springboot_all\springboot03\target\classes started by 13410 in D:\项目\springboot_all\springboot03)
+2023-03-22 10:37:28.811 [main] INFO  com.msb.Springboot03Application - No active profile set, falling back to default profiles: default
+2023-03-22 10:37:29.507 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+2023-03-22 10:37:29.512 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+2023-03-22 10:37:29.514 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-22 10:37:29.514 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-03-22 10:37:29.647 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-03-22 10:37:29.649 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot03] - Initializing Spring embedded WebApplicationContext
+2023-03-22 10:37:29.649 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 810 ms
+2023-03-22 10:37:29.674 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2023-03-22 10:37:29.704 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-03-22 10:37:29.869 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-22 10:37:30.068 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-22 10:37:30.111 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2023-03-22 10:37:30.198 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+2023-03-22 10:37:30.213 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path '/springboot03'
+2023-03-22 10:37:30.219 [main] INFO  com.msb.Springboot03Application - Started Springboot03Application in 1.673 seconds (JVM running for 2.479)
+2023-03-22 10:37:32.698 [http-nio-8091-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot03] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-22 10:37:32.698 [http-nio-8091-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-22 10:37:32.699 [http-nio-8091-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-22 10:41:01.238 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-22 10:41:01.238 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-03-22 10:41:01.242 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-03-22 10:41:05.462 [main] INFO  com.msb.Springboot03Application - Starting Springboot03Application using Java 1.8.0_181 on LAPTOP-HUJOPHMK with PID 23140 (D:\项目\springboot_all\springboot03\target\classes started by 13410 in D:\项目\springboot_all\springboot03)
+2023-03-22 10:41:05.464 [main] INFO  com.msb.Springboot03Application - No active profile set, falling back to default profiles: default
+2023-03-22 10:41:06.249 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+2023-03-22 10:41:06.254 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+2023-03-22 10:41:06.254 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-22 10:41:06.254 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-03-22 10:41:06.394 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-03-22 10:41:06.396 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot03] - Initializing Spring embedded WebApplicationContext
+2023-03-22 10:41:06.396 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 892 ms
+2023-03-22 10:41:06.422 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2023-03-22 10:41:06.455 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-03-22 10:41:06.621 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-22 10:41:06.844 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-22 10:41:06.893 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2023-03-22 10:41:06.990 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+2023-03-22 10:41:07.004 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path '/springboot03'
+2023-03-22 10:41:07.011 [main] INFO  com.msb.Springboot03Application - Started Springboot03Application in 1.837 seconds (JVM running for 2.624)
+2023-03-22 10:41:25.685 [http-nio-8091-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot03] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-22 10:41:25.686 [http-nio-8091-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-22 10:41:25.686 [http-nio-8091-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-03-22 10:41:37.097 [http-nio-8091-exec-2] DEBUG com.msb.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2023-03-22 10:41:37.206 [http-nio-8091-exec-2] DEBUG com.msb.mapper.EmpMapper.findAll - ==> Parameters: 
+2023-03-22 10:41:37.225 [http-nio-8091-exec-2] DEBUG com.msb.mapper.EmpMapper.findAll - <==      Total: 15
+2023-03-22 10:47:08.015 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-22 10:47:08.016 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-03-22 10:47:08.020 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
