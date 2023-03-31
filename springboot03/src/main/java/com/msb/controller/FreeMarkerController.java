@@ -37,6 +37,7 @@ public class FreeMarkerController {
 
     /**
      * 查询全部的员工信息，展示
+     * 遍历list集合
      * @return
      */
     @RequestMapping("/showEmp")

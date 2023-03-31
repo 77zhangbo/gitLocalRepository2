@@ -22,20 +22,27 @@
         <th>工号</th>
         <th>姓名</th>
         <th>岗位</th>
+        <th>上级编号</th>
         <th>薪资</th>
+        <th>补助</th>
         <th>部门号</th>
     </tr>
     <#-- 遍历数据 👇-->
-    <#list empList as emp>
-        <tr>
-            <td>${emp_index}</td>
-            <td>${emp.empno}</td>
-            <td>${emp.ename}</td>
-            <td>${emp.job}</td>
-            <td>${emp.sal}</td>
-            <td>${emp.deptno}</td>
-        </tr>
-    </#list>
+    <#if empList??>
+        <#list empList as emp>
+            <tr>
+                <td>${emp_index}</td>
+                <td>${emp.empno}</td>
+                <td>${emp.ename}</td>
+                <td>${emp.job}</td>
+                <td>${emp.mgr!'无'}</td>
+                <td>${emp.sal}</td>
+                <td>${emp.comm!'0'}</td>
+                <td>${emp.deptno}</td>
+            </tr>
+        </#list>
+    </#if>
+
 </table>
 </body>
 </html>
