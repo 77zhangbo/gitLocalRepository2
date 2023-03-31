@@ -30,13 +30,13 @@
     <#-- 遍历数据 👇-->
     <#if empList??>
         <#list empList as emp>
-            <tr>
+            <tr <#if emp_index%2 == 0>style="background-color: gray" </#if>><#--偶数行背景色设置为灰色gray -->
                 <td>${emp_index}</td>
                 <td>${emp.empno}</td>
-                <td>${emp.ename}</td>
+                <td <#if emp.ename == 'KING'>style="color: lawngreen" </#if>>${emp.ename}</td><#-- name属性一栏中名字为KING的标记亮色 -->
                 <td>${emp.job}</td>
                 <td>${emp.mgr!'无'}</td>
-                <td>${emp.sal}</td>
+                <td <#if emp.sal gte 2000>style="color: red" </#if>>${emp.sal}</td><#--sal属性中工资>=2000的数值标红-->
                 <td>${emp.comm!'0'}</td>
                 <td>${emp.deptno}</td>
             </tr>
