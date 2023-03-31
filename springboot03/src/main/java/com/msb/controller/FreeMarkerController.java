@@ -44,7 +44,7 @@ public class FreeMarkerController {
         ModelAndView mv=new ModelAndView();
         List<Emp> list = empService.findAll();
         mv.addObject("empList",list);
-        mv.setViewName("showEmp");
+        mv.setViewName("showEmp");  //返回showEmp.ftlh
         return mv;
     }
 
